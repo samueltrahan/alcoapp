@@ -1,0 +1,46 @@
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.wine-feature {
+grid-column: 1/2;
+grid-row: 1/2;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+.wine-description {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sake-feature {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.sake-description {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sake-pic {
+    width: 50vw;
+    height: 50vh;
+}

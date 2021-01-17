@@ -1,0 +1,48 @@
+.nav-bar {
+    background-color: black;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine {
+    width: 100px;
+    filter: drop-shadow(2px 5px 40px white);
+}
+
+.wine:hover {
+    filter: drop-shadow(4px 10px 30px white);
+}
+
+.nav-links {
+    grid-column: 3/4;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.drinks {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drinks:hover {
+    background-color: goldenrod;
+    transition: 1s;
+}
+
