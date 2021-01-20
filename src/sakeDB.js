@@ -1,4 +1,4 @@
-import Heaven from './assets/heavenoftipsydelight1.jpg';
+import Heaven from './assets/heavenoftipsydelight3.jpg';
 import Tenth from './assets/tenthdegree1.jpg';
 import Autumn from './assets/autumnelixir4.jpg';
 import SummerSnow from './assets/summersnow.jpg';
@@ -152,4 +152,4 @@ const SAKE = [
     }
 ]
 
-export default SAKE;
+export {SAKE};
