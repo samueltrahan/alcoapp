@@ -1,15 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Featured.css';
+import {SAKE} from '../../sakeDB';
 import Caymus from '../../assets/caymus.jpg';
 import Sake from '../../assets/delight.jpg';
 
 export default function Featured() {
+  
     return (
         <div className="featured">
+            <div className="xyz-in" xyz="fade up big">
             <div className="wine-feature">
                 <img src={Caymus} alt=""></img>
             </div>
-            <div className="wine-description">
+            </div>
+            <div className="wine-description" >
                 <h1>Caymus</h1>
                 <h3>Vinyard:  Caymus Vineyards</h3>
                 <h2>Region</h2>
@@ -26,6 +30,7 @@ export default function Featured() {
                 <h2>Taste Notes</h2>
                 <h2>Pairing</h2>
             </div>
+            <div className="xyz-in" xyz="fade up big">I will animate in!</div>
         </div>
     )
 }

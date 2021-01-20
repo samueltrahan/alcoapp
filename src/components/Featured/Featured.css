@@ -44,3 +44,7 @@ margin: 10px;
     width: 50vw;
     height: 50vh;
 }
+
+.xyz-in {
+    --xyz-in-delay: 1s;
+}

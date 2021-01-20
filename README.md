@@ -1,1 +1,1 @@
-## Samuel Trahan React App Template# alcoapp
+## AlcoApp
