@@ -16,6 +16,7 @@ import ShiningPrince from './assets/shiningprince.jpg';
 
 const SAKE = [
     {
+        id: 1,
         name: "Heaven of Tipsy Delight",
         bottleSize: "720 ml",
         bottlePrice: 145,
@@ -25,6 +26,7 @@ const SAKE = [
         picture: Heaven
     },
     {
+        id: 2,
         name: "Tenth Degree",
         bottleSize: "720ml",
         bottlePrice: 66,
@@ -34,6 +36,7 @@ const SAKE = [
         picture: Tenth
     },
     {
+        id: 3,
         name: "Autumn Elixir",
         bottleSize: "550ml",
         bottlePrice: 60,
@@ -43,6 +46,7 @@ const SAKE = [
         picture: Autumn
     },
     {
+        id: 4,
         name: "Shining Prince",
         bottleSize: "720ml",
         bottlePrice: 56,
@@ -52,6 +56,7 @@ const SAKE = [
         picture: ShiningPrince
     },
     {
+        id: 5,
         name: "Summer Snow",
         bottleSize: "500ml",
         bottlePrice:  54,
@@ -61,6 +66,7 @@ const SAKE = [
         picture: SummerSnow
     },
     {
+        id: 6,
         name: "Happy Bride",
         bottleSize: "500ml",
         bottlePrice: 54,
@@ -70,6 +76,7 @@ const SAKE = [
         picture: HappyBride,
     },
     {
+        id: 7,
         name: "Black & Gold",
         bottleSize: "750ml",
         bottlePrice: 40,
@@ -79,6 +86,7 @@ const SAKE = [
         picture: BlackGold
     },
     {
+        id: 8,
         name: "Sayuri",
         bottleSize: "720ml",
         bottlePrice: 40,
@@ -88,6 +96,7 @@ const SAKE = [
         picture: Sayuri
     },
     {
+        id: 9,
         name: "Pure Dusk",
         bottleSize: "300ml",
         bottlePrice: 38,
@@ -97,6 +106,7 @@ const SAKE = [
         picture: PureDusk
     },
     {
+        id: 10,
         name: "Pure Dawn",
         bottleSize: "300ml",
         bottlePrice: 32,
@@ -106,6 +116,7 @@ const SAKE = [
         picture: PureDawn
     },
     {
+        id:11,
         name: "Lighly Cloudy",
         bottleSize: "250ml",
         bottlePrice: 32,
@@ -115,6 +126,7 @@ const SAKE = [
         picture: LightlyCloudy
     },
     {
+        id: 12,
         name: "Hana-awaka",
         bottleSize: "250ml",
         bottlePrice: 18,
@@ -124,6 +136,7 @@ const SAKE = [
         picture: Hana
     },
     {
+        id: 13,
         name: "Zipang",
         bottleSize: "250ml",
         bottlePrice: 18,
@@ -133,6 +146,7 @@ const SAKE = [
         picture: Zipang
     },
     {
+        id: 14,
         name: "Funaguchi",
         bottleSize: "750ml",
         bottlePrice: 17,
@@ -142,6 +156,7 @@ const SAKE = [
         picture: Funaguchi
     },
     {
+        id: 15,
         name: "Draft Sake, Hakusuru",
         bottleSize: "200ml",
         bottlePrice: 9,

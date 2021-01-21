@@ -5,7 +5,7 @@ import {SAKE} from '../../sakeDB';
 
 export default function SakePage() {
     return (
-        <div>
+        <div className="sake-page">
             {SAKE.map((sake) => 
         <Sake sake={sake}/>
             )}
