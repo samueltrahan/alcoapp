@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Featured.css';
-import {SAKE} from '../../sakeDB';
 import Caymus from '../../assets/caymus.jpg';
 import Sake from '../../assets/delight.jpg';
 
