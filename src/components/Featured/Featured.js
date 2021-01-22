@@ -2,6 +2,7 @@ import React from 'react';
 import './Featured.css';
 import Caymus from '../../assets/caymus.jpg';
 import Sake from '../../assets/delight.jpg';
+import {SAKE} from '../../sakeDB';
 
 export default function Featured() {
   

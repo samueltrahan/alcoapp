@@ -4,7 +4,7 @@
     padding: 20px;
     background-color: white;
     border: 1px solid black;
-    
+    border-radius: 10px;
 }
 
 .sake-image {
@@ -17,6 +17,7 @@
 
 .image {
     width: 40vw;
+    border-radius: 10px;
 }
 
 .sake-details {
@@ -25,5 +26,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.sake-section h1 {
+    font-size: 40px
+}
+
+.sake-section h3 {
+    font-size: 15px;
 }
 

@@ -43,7 +43,7 @@
 }
 
 .drinks:hover {
-    background-color: goldenrod;
-    transition: 1s;
+    background-color: rgb(82, 82, 82);
+    transition: .5s;
 }
 
