@@ -1,16 +1,26 @@
 .featured {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+   
 }
 
-.wine-feature {
+.wine-section-landing {
 grid-column: 1/2;
 grid-row: 1/2;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 10px;
+background-color: white;
+margin: 40px;
+}
+
+.wine-feature {
+    margin: 10px;
+}
+
+.featured-wine {
+
 }
 
 .wine-description {
@@ -20,15 +30,24 @@ margin: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
+    padding: 40px;
 }
 
-.sake-feature {
+.sake-section-landing {
     grid-column: 1/2;
     grid-row: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 40px;
+    background-color: white;
+   
+   
+}
+
+.sake-feature {
+    margin: 20px;
 }
 
 .sake-description {
@@ -38,6 +57,8 @@ margin: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
+    padding: 40px;
 }
 
 .sake-pic {
@@ -45,6 +66,10 @@ margin: 10px;
     height: 50vh;
 }
 
-.xyz-in {
-    --xyz-in-delay: 1s;
+.sake-description h1 {
+    font-size: 40px;
+}
+
+.sake-description h3 {
+    font-size: 15px;
 }
