@@ -1,9 +1,21 @@
 .nav-bar {
     background-color: white;
-    height: 120px;
+    height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
 }
+
+.nav-bar.active {
+    opacity: .3;
+}
+
+.nav-bar.active .drinks:hover {
+    background-color: goldenrod;
+    opacity: none;
+}
+
+
 
 .logo {
     grid-column: 1/2;

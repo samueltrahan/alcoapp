@@ -5,7 +5,8 @@ import {SAKE} from '../../sakeDB';
 
 export default function Featured() {
     
-  
+
+
     return (
         <div className="featured">
             <div className="wine-section-landing">
