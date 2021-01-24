@@ -34,8 +34,8 @@ export default function Featured() {
                 <h1>{SAKE[0].bottlePrice}</h1>
                 <h3>{SAKE[0].bottleSize}</h3>
                 <h3>Alcohol Percentage: {SAKE[0].ABV}</h3>
-                <h3>Food Pairing: {SAKE[0].foodPairing}</h3>
                 <h3>Tasting Notes: {SAKE[0].tastingNotes}</h3>
+                <h3>Food Pairing: {SAKE[0].foodPairing}</h3>
             </div>
             </div>
             <div className="xyz-in" xyz="fade up big">I will animate in!</div>

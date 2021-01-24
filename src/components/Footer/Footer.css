@@ -1,4 +1,108 @@
-.footer {
+
+.footer-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+}
+
+.locations-section {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(38,38,38);
+    height: 450px;
+}
+
+.footer-wine {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine-footer {
+    width: 130px;
+    filter: drop-shadow(2px 5px 40px white);
+}
+
+.wine-footer:hover {
+    filter: drop-shadow(4px 10px 30px white);
+}
+
+
+.lafayette {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.restaurant {
+    text-decoration: none;
+    color: white;
+}
+
+.restaurant:after {
+    content: '';
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #fff;
+    transition: width .5s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.restaurant:hover:after {
+    width: 100%;
+    left: 0;
+    background: #fff;
+}
+
+.lafayette p {
+    color: rgb(149,149,149);
+}
+
+.baton-rouge p {
+    color: rgb(149,149,149);
+}
+
+.new-orleans p {
+    color: rgb(149,149,149)
+}
+
+.baton-rouge {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-orleans {
+    grid-column: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copy-right {
+    grid-row: 2/3;
+   height: 50px;
     background-color: white;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.phone:hover {
+    color: white;
+    transition: .5s;
 }
