@@ -2,7 +2,7 @@
 .footer-section {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 500px;
+    height: 450px;
 }
 
 .locations-section {
@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: rgb(38,38,38);
-    height: 450px;
+    height: 400px;
 }
 
 .footer-wine {

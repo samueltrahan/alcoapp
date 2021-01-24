@@ -18,7 +18,10 @@ export default function App() {
             }>
             </Route> 
             <Route exact path="/sakes" render={() => 
+            <div>
                 <SakePage />
+                <Footer />
+            </div>
             }>
             </Route>
         </Router>
