@@ -3,7 +3,9 @@
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .nav-bar.active {
