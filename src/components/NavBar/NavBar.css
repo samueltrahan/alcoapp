@@ -10,6 +10,7 @@
 
 .nav-bar.active {
     opacity: .3;
+    height: 140px;
 }
 
 .nav-bar.active .drinks:hover {
