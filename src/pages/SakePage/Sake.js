@@ -15,6 +15,7 @@ export default function Sake({sake}) {
             <h3>{sake.bottleSize}</h3>
             <h3>Alcohol Percentage: {sake.ABV}</h3>
             <h3>Tasting Notes: {sake.tastingNotes}</h3>
+            <h3>Tsunami Pairings: {sake.tsuPairing}</h3>
             <h3>Food Pairings: {sake.foodPairing}</h3>
         </div>
     </div>
@@ -26,6 +27,7 @@ export default function Sake({sake}) {
             <h3>{sake.bottleSize}</h3>
             <h3>Alcohol Percentage: {sake.ABV}</h3>
             <h3>Tasting Notes: {sake.tastingNotes}</h3>
+            <h3>Tsunami Pairings: {sake.tsuPairing}</h3>
             <h3>Food Pairings: {sake.foodPairing}</h3>
             </div>    
             <div className="sake-details">

@@ -36,6 +36,7 @@ export default function Featured() {
                 <h3>{SAKE[0].bottleSize}</h3>
                 <h3>Alcohol Percentage: {SAKE[0].ABV}</h3>
                 <h3>Tasting Notes: {SAKE[0].tastingNotes}</h3>
+                <h3>Tsunami Pairings: {SAKE[0].tsuPairing}</h3>
                 <h3>Food Pairing: {SAKE[0].foodPairing}</h3>
             </div>
             </div>

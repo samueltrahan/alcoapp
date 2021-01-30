@@ -23,6 +23,7 @@ const SAKE = [
         ABV: '15-16%',
         foodPairing: "Cheese, Grilled Chicken and Seafood, Fried Foods",
         tastingNotes: "Multi-hued Flavor, Gentle yet strong",
+        tsuPairing: "Any rolls without heave sauce or fried items, Poke bowls, Pimp salad",
         picture: Heaven
     },
     {
@@ -33,6 +34,7 @@ const SAKE = [
         ABV: "17-18%",
         foodPairing: "Salmon Roe, Caviar",
         tastingNotes: " Dry and clear, a martini-lovers sake",
+        tsuPairing: "Sashimi, Nigiri, Edamame, Pimp Salad, Rolls that aren't fried or rich",
         picture: Tenth
     },
     {
@@ -43,6 +45,7 @@ const SAKE = [
         ABV: "16%",
         foodPairing: "Miso marinades, rich seafood, and earthy sweetness",
         tastingNotes: "Balance of tartness and sweetness, persimmon",
+        tsuPairing: "Steak",
         picture: Autumn
     },
     {
@@ -53,6 +56,7 @@ const SAKE = [
         ABV: "15.5%",
         foodPairing: "Seared Tuna, Exotic Vegetables, Asaragus",
         tastingNotes: "Citrus, Crisp, Cedar",
+        tsuPairing: "Any Complements",
         picture: ShiningPrince
     },
     {
@@ -63,6 +67,7 @@ const SAKE = [
         ABV: "17-18%",
         foodPairing: "Spicy Tuna, Salmon, Grilled Seabass",
         tastingNotes: "Creamy, Rich, Robust",
+        tsuPairing: "Baked salmon, Feature noodle dish, Cisotaki, Sunflower, Thai spaghetti, Spicy Edamame, Ike fries, Rolls with jalepeno or sriracha, Fried rice",
         picture: SummerSnow
     },
     {
@@ -83,6 +88,7 @@ const SAKE = [
         ABV: "15.6%",
         foodPairing: "Grilled Chicken and pork, Scallops, Dumplings",
         tastingNotes: "Honey Dew, Anise and roasted nuts, Balanced",
+        tsuPairing: "Chicken, Small Plate, Tonkatsu, Gyoza",
         picture: BlackGold
     },
     {
@@ -93,6 +99,7 @@ const SAKE = [
         ABV: "12.5%",
         foodPairing: "Medium spicy food, Kimchi, Saucy",
         tastingNotes: "Light taste, but full bodied, Touch of honey, Tropical fruit, Multiple melons",
+        tsuPairing: "Spicy Edamame, Cisotaki, Sunflower, Ramen, Big Tuna Roll, Dynamite Rolls, Kabuki Roll, Anything with Sriracha, Tsinful Tsunami",
         picture: Sayuri
     },
     {
@@ -133,6 +140,7 @@ const SAKE = [
         ABV: "7%",
         foodPairing: "Sweet dishes and desserts",
         tastingNotes: "Fizzy, Mild sweetness, and Acidity",
+        tsuPairing: "Sashimi, Nigiri, All Desserts, Cisotaki, Sunflower, Ramen, Big Tuna Roll, Dynamite Rolls, Kabuki Roll",
         picture: Hana
     },
     {
