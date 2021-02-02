@@ -1,4 +1,4 @@
-import Caymus from './assets/caymus.jpg';
+import Caymus from './assets/caymus1.jpg';
 import FrankFamilyCab from './assets/frankfamilycab.jpg';
 import Intrinsic from './assets/intrinsic1.jpg';
 import LaCrema from './assets/lacrema.jpg';

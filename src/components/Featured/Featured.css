@@ -17,7 +17,9 @@ border-radius: 10px;
 }
 
 .wine-feature {
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -46,6 +48,9 @@ border-radius: 10px;
 
 .sake-feature {
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sake-description {
@@ -59,10 +64,6 @@ border-radius: 10px;
     padding: 40px;
 }
 
-.sake-pic {
-    width: 50vw;
-    height: 50vh;
-}
 
 .sake-description h1 {
     font-size: 40px;
