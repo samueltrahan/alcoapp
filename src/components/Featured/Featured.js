@@ -1,6 +1,5 @@
 import React from 'react';
 import './Featured.css';
-import Caymus from '../../assets/caymus.jpg';
 import {SAKE} from '../../sakeDB';
 import {REDWINE} from '../../wineDB';
 
