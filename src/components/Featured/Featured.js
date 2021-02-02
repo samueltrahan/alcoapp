@@ -26,11 +26,6 @@ export default function Featured() {
             <img className="image" alt="" src={SAKE[0].picture}></img>
             </div>
             <div className="sake-description">
-            {/* <h1>Heaven of Tipsy Delight</h1>
-                <h3>Vinyard:  Caymus Vineyards</h3>
-                <h2>Region</h2>
-                <h2>Taste Notes</h2>
-                <h2>Pairing</h2> */}
                 <h1>{SAKE[0].name}</h1>
                 <h1>{SAKE[0].bottlePrice}</h1>
                 <h3>{SAKE[0].bottleSize}</h3>

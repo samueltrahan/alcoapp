@@ -1,0 +1,28 @@
+.red-wine-section {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.type {
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+.red-image {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.red-info {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
