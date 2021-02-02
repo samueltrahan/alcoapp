@@ -14,6 +14,12 @@ export default function WinePage() {
             <Red red={red}/>
             )}
             </div>
+            <h1 className="white-heading">White Wine</h1>
+            <div className="white-page">
+                {WHITEWINES.map(white =>
+                <White white={white}/>
+                )}
+            </div>
         </div>
     )
 }

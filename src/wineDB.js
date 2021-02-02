@@ -82,6 +82,7 @@ const REDWINE = [
 
 const WHITEWINES = [
     {
+        id: 1,
         name: "Frank Family",
         type: "Chardonnay",
         glass: 14,
@@ -92,6 +93,7 @@ const WHITEWINES = [
         picture: FrankFamilyChard
     }, 
     {
+        id: 2,
         name: "Oyster Bar",
         type: "Sauvignon Blanc",
         glass: 12,
@@ -102,6 +104,7 @@ const WHITEWINES = [
         picture: OysterBay
     },
     {
+        id: 3,
         name: "Cutrer",
         type: "Chardonnay",
         glass: 12,
@@ -111,6 +114,7 @@ const WHITEWINES = [
         picture: Cutrer
     }, 
     {
+        id: 4,
         name: "J",
         type: "Pinot Gris",
         glass: 11,
@@ -121,6 +125,7 @@ const WHITEWINES = [
         picture: J
     },
     {
+        id: 5,
         name: "Bieler Père et Fils",
         type: "Rosé",
         glass: 9,
@@ -131,6 +136,7 @@ const WHITEWINES = [
         picture: Bieler,
     }, 
     {
+        id: 6,
         name: "Takara Plum Wine",
         glass: 8,
         bottle: 40,

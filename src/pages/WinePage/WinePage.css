@@ -9,3 +9,15 @@
 .red-page {
     padding: 40px;
 }
+
+.white-page {
+    padding: 40px;
+}
+
+.white-heading {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}

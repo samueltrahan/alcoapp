@@ -2,6 +2,7 @@ import React from 'react';
 import './Featured.css';
 import Caymus from '../../assets/caymus.jpg';
 import {SAKE} from '../../sakeDB';
+import {REDWINE} from '../../wineDB';
 
 export default function Featured() {
     
@@ -11,14 +12,14 @@ export default function Featured() {
         <div className="featured">
             <div className="wine-section-landing">
             <div className="wine-feature">
-                <img className="image" src={Caymus} alt=""></img>
+                <img className="image" src={REDWINE[0].picture} alt=""></img>
             </div>
             <div className="wine-description" >
-                <h1>Caymus</h1>
-                <h3>Vinyard:  Caymus Vineyards</h3>
-                <h2>Region</h2>
-                <h2>Taste Notes</h2>
-                <h2>Pairing</h2>
+                <h1>{REDWINE[0].name}</h1>
+                <h1>{REDWINE[0].type}</h1>
+                <h1>{REDWINE[0].bottle}</h1>
+                <h3>Region</h3> {REDWINE[0].region}
+                <h3>Tasting Notes</h3>{REDWINE[0].tastingNotes}
             </div>
             </div>
             <div className="sake-section-landing">
