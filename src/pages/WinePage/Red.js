@@ -30,8 +30,8 @@ export default function Red({red}) {
         <h1>{red.name} {red.year}</h1>
         {type}
         {glass}
-        <h3>Region </h3>{red.region}
-        <h3>Tasting Notes </h3>{red.tastingNotes}
+        <h3>Region </h3><p className="type">{red.region}</p>
+        <h3>Tasting Notes </h3><p className="type">{red.tastingNotes}</p>
         </div>
     </div>
     ) : (
@@ -40,8 +40,8 @@ export default function Red({red}) {
         <h1>{red.name} {red.year}</h1>
         {red.type}
         {glass}
-       <h3>Region</h3>{red.region}
-       <h3>Tasting Notes</h3>{red.tastingNotes}
+       <h3>Region</h3><p className="type">{red.region}</p>
+       <h3>Tasting Notes</h3><p className="type">{red.tastingNotes}</p>
         </div>
         <div className="red-info">
         <img className="image" src={red.picture} alt=""></img>

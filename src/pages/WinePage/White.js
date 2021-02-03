@@ -17,8 +17,8 @@ export default function White({white}) {
         <h1>{white.name} {white.year}</h1>
         <p className="type">{white.type}</p>
         {glass}
-        <h3>Region </h3>{white.region}
-        <h3>Tasting Notes </h3>{white.tastingNotes}
+        <h3>Region </h3><p className="type">{white.region}</p>
+        <h3>Tasting Notes </h3><p className="type">{white.tastingNotes}</p>
         </div>
     </div>
     ) : (
@@ -27,8 +27,8 @@ export default function White({white}) {
         <h1>{white.name} {white.year}</h1>
         {white.type}
         {glass}
-       <h3>Region</h3>{white.region}
-       <h3>Tasting Notes</h3>{white.tastingNotes}
+       <h3>Region</h3><p className="type">{white.region}</p>
+       <h3>Tasting Notes</h3><p className="type">{white.tastingNotes}</p>
         </div>
         <div className="red-info">
         <img className="image" src={white.picture} alt=""></img>
