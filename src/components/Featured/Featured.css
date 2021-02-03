@@ -90,3 +90,20 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Big Shoulders Display', cursive;
 font-family: 'Roboto', sans-serif;
 }
+
+@media only screen and (max-width: 1145px) {
+    .sake-description h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .sake-description h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 793px) {
+    .sake-description h1 {
+        font-size: 15px;
+    }
+}
