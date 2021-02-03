@@ -94,7 +94,7 @@ const WHITEWINES = [
     }, 
     {
         id: 2,
-        name: "Oyster Bar",
+        name: "Oyster Bay",
         type: "Sauvignon Blanc",
         glass: 12,
         bottle: 46,

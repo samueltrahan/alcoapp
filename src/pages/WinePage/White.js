@@ -25,7 +25,7 @@ export default function White({white}) {
         <div className="red-wine-section">
         <div className="red-image">
         <h1>{white.name} {white.year}</h1>
-        {white.type}
+        <p className="type">{white.type}</p>
         {glass}
        <h3>Region</h3><p className="type">{white.region}</p>
        <h3>Tasting Notes</h3><p className="type">{white.tastingNotes}</p>
