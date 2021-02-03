@@ -59,7 +59,7 @@ const REDWINE = [
     {
         id: 5,
         name: "Benziger",
-        type: "Pinot Noir/Organic",
+        type: "Pinot Noir",
         glass: 12,
         bottle: 46,
         region: "Central Coast, CA",

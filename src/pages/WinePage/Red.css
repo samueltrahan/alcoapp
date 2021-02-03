@@ -26,3 +26,11 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     flex-direction: column;
 }
+
+.organic-wine {
+    display: inline-block;
+}
+
+.organic {
+    width: 60px;
+}
