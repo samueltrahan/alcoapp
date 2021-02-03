@@ -16,11 +16,6 @@ margin: 40px;
 border-radius: 10px;
 }
 
-.wine-feature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 .wine-description {
@@ -32,6 +27,20 @@ border-radius: 10px;
     flex-direction: column;
     background-color: white;
     padding: 40px;
+    width: 37%;
+}
+
+.wine-description h1 {
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.wine-description h3 {
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sake-section-landing {
@@ -67,8 +76,17 @@ border-radius: 10px;
 
 .sake-description h1 {
     font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Roboto', sans-serif;
 }
 
 .sake-description h3 {
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.type {
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Roboto', sans-serif;
 }

@@ -15,10 +15,10 @@ export default function Featured() {
             </div>
             <div className="wine-description" >
                 <h1>{REDWINE[0].name}</h1>
-                <h1>{REDWINE[0].type}</h1>
+                <h3 className="type">{REDWINE[0].type}</h3>
                 <h1>{REDWINE[0].bottle}</h1>
-                <h3>Region</h3> {REDWINE[0].region}
-                <h3>Tasting Notes</h3>{REDWINE[0].tastingNotes}
+                <h3>Region</h3> <p className="type">{REDWINE[0].region}</p>
+                <h3>Tasting Notes</h3><p className="type">{REDWINE[0].tastingNotes}</p>
             </div>
             </div>
             <div className="sake-section-landing">
@@ -28,11 +28,11 @@ export default function Featured() {
             <div className="sake-description">
                 <h1>{SAKE[0].name}</h1>
                 <h1>{SAKE[0].bottlePrice}</h1>
-                <h3>{SAKE[0].bottleSize}</h3>
-                <h3>Alcohol Percentage: {SAKE[0].ABV}</h3>
-                <h3>Tasting Notes: {SAKE[0].tastingNotes}</h3>
-                <h3>Tsunami Pairings: {SAKE[0].tsuPairing}</h3>
-                <h3>Food Pairing: {SAKE[0].foodPairing}</h3>
+                <h2>{SAKE[0].bottleSize}</h2>
+                <h3>Alcohol Percentage: </h3><p className="type">{SAKE[0].ABV}</p>
+                <h3>Tasting Notes: </h3><p className="type">{SAKE[0].tastingNotes}</p>
+                <h3>Tsunami Pairings: </h3><p className="type">{SAKE[0].tsuPairing}</p>
+                <h3>Food Pairing: </h3><p className="type">{SAKE[0].foodPairing}</p>
             </div>
             </div>
             <div className="xyz-in" xyz="fade up big">I will animate in!</div>
